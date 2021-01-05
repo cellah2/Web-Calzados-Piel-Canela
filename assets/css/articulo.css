@@ -1,0 +1,46 @@
+
+/*container aqui*/
+.articulo{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: justify;
+}
+.articulo-body ul{
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.comentario{
+    width: 100%;
+    border: 3px solid blanchedalmond;
+    border-radius: 10px;
+    padding: 10px;
+}
+.comentario *{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.comentario form{
+    margin-left: 5px;
+}
+.comentario p{
+    display: inline;
+}
+.comentario-mensaje textarea{
+    width: 985px;
+}
+.comentario-boton{
+    margin-top: 10px;
+}
+.comentario-boton input{
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.comentario-boton input:hover{
+    background-color: rgba(245, 245, 245, 0.3);
+}
